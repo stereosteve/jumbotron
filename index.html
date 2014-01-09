@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jumbotron</title>
+  <style type="text/css">
+    body {
+      background: black;
+      font-family: helvetica;
+    }
+    .content {
+      max-width: 800px;
+      margin: 100px auto;
+      background: rgba(255,255,255,0.5);
+      padding: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="content">
+    <h1>Jumbotron</h1>
+    <p>Fill your background with a video!</p>
+    <p><a href="https://github.com/stereosteve/jumbotron">View source on github</a><p>
+  </div>
+
+  <div id="jumbo">
+    <video src="http://vjs.zencdn.net/v/oceans.mp4" autoplay loop muted></video>
+  </div>
+
+  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <script src="jumbotron.js"></script>
+  <script>
+    $("#jumbo").jumbotron()
+  </script>
+
+</body>
+</html>
