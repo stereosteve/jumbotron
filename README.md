@@ -5,6 +5,12 @@ Fill your background with a video.
 A simple jQuery plugin to scale and center a video to fill the background of a webpage.
 
 
+## Installation
+
+```
+bower install jumbotron
+```
+
 
 ## Usage
 
