@@ -36,7 +36,7 @@ $.fn.jumbotron = function(opts) {
         'margin-left': margLeft,
       })
     } else {
-      var newHeight = vidAspect * win.width()
+      var newHeight = win.width() / vidAspect
       var leftover = newHeight - win.height()
       var margTop = -1 * leftover / 2
       vid.css({
